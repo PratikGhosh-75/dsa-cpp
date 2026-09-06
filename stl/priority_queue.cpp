@@ -34,11 +34,11 @@ int main()
     pq1.push(70);
     pq1.push(250);
 
-    cout << pq.top() << endl;
+    cout << pq1.top() << endl;
 
-    pq.pop();
+    pq1.pop();
 
-    cout << pq.top() << endl;
-    cout << pq.size() << endl;
+    cout << pq1.top() << endl;
+    cout << pq1.size() << endl;
     return 0;
 }
